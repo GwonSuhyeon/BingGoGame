@@ -1,0 +1,11 @@
+----------------------------------------
+테이블 생성
+
+CREATE TABLE game_list
+(
+code CHAR(4) PRIMARY KEY NOT NULL,
+title VARCHAR(50) NOT NULL,
+state INT NOT NULL DEFAULT '0'
+);
+
+----------------------------------------
